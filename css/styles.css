@@ -236,7 +236,7 @@ img {
 }
 
 .our-team-list {
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     display: flex;
     gap: 24px;
     /* width: 264px; 
@@ -249,12 +249,13 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize;    color: #2e2f42;
+    text-transform: capitalize;    
+    color: #2e2f42;
     margin-bottom: 72px;
 }
 
 .our-team-item {
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
     
@@ -265,6 +266,9 @@ img {
     background-color: #FFFFFF
 }
 .o-t-title-end-text {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    padding: 32px 0;
     /* display: flex;
     align-items: center;
     justify-content: center;
@@ -276,7 +280,6 @@ img {
     gap: 8px;
     width: 232px;
     height: 56px; */
-    padding: 32px 0;
 }
 
 .our-team-title-three {
