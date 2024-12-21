@@ -89,6 +89,13 @@ img {
     gap: 40px;
 }
 
+
+.header-nav-item.nav-psevdo-element {
+    /* position: relative; */
+    color: #404bbf;
+}
+
+
 .nav-item-link {
     display: block;
     padding: 24px 0;
@@ -102,6 +109,11 @@ img {
 .nav-item-link:focus {
     color: #404bbf;
 }
+
+/* .header-nav-item.nav-psevdo-element {
+    position: relative;
+    color: #404bbf;
+} */
 
 .nav-psevdo-element::after {
     display: block;
@@ -467,6 +479,12 @@ img {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+
+.footer-container {
+    display: flex;
+    /* align-items: center; */
+    align-items: baseline;
 }
 .footer-logo-text {
     width: 264px;
